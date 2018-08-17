@@ -23,7 +23,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/samsung/exynos7870-common/include
 TARGET_BUILD_DEBUGGABLE := true
 
 # SELinux
-#BOARD_SEPOLICY_DIRS += device/samsung/exynos7870-common/sepolicy
+BOARD_SEPOLICY_DIRS += device/samsung/exynos7870-common/sepolicy
 
 # Properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
